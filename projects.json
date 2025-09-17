@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Loan Calculator",
+    "description": " Project to calculate monthly loan payments.",
+    "date": "2025-08-16",
+    "status": "Completed",
+    "link": "https://loanofaugust.vercel.app/",
+    "emoji": "🛍️"
+  },
+  {
+    "name": "Portfolio Website", 
+    "description": "Personal portfolio with 3D animations using Three.js",
+    "date": "2024-09-17",
+    "status": "In Progress", 
+    "link": "https://myportfolio.com",
+    "emoji": "💼"
+  }
+]
