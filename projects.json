@@ -13,6 +13,14 @@
     "date": "2025-08-18",
     "status": "Completed", 
     "link": "https://midnightofaugust.vercel.app/",
-    "emoji": "💼"
+    "emoji": "🎊"
+  },
+  {
+    "name": "Expense Tracker", 
+    "description": "Personal expense tracker to monitor daily spending, categorize transactions, and manage your budget effectively",
+    "date": "2025-08-21",
+    "status": "Completed", 
+    "link": "https://expenseofaugust.vercel.app/",
+    "emoji": "🏦"
   }
 ]
