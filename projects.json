@@ -1,7 +1,7 @@
 [
   {
     "name": "Loan Calculator",
-    "description": " Project to calculate monthly loan payments.",
+    "description": "Calculate loan EMI, interest, and payment schedules instantly with this user-friendly web-based calculator tool",
     "date": "2025-08-16",
     "status": "Completed",
     "link": "https://loanofaugust.vercel.app/",
