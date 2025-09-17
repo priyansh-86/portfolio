@@ -8,11 +8,11 @@
     "emoji": "🛍️"
   },
   {
-    "name": "Portfolio Website", 
-    "description": "Personal portfolio with 3D animations using Three.js",
-    "date": "2024-09-17",
-    "status": "In Progress", 
-    "link": "https://myportfolio.com",
+    "name": "Midnight Events", 
+    "description": "Dark-themed web application with sleek midnight aesthetics and modern user interface design elements.",
+    "date": "2025-08-18",
+    "status": "Completed", 
+    "link": "https://midnightofaugust.vercel.app/",
     "emoji": "💼"
   }
 ]
