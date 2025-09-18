@@ -22,5 +22,13 @@
     "status": "Completed", 
     "link": "https://expenseofaugust.vercel.app/",
     "emoji": "🏦"
+  },
+  {
+    "name": "Smile Selfie", 
+    "description": "Capture your smile & gestures with Smart Selfie",
+    "date": "2025-09-01",
+    "status": "Completed", 
+    "link": "https://selfieofaugust.vercel.app/",
+    "emoji": "🤳🏻"
   }
 ]
