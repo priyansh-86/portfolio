@@ -30,5 +30,13 @@
     "status": "Completed", 
     "link": "https://selfieofaugust.vercel.app/",
     "emoji": "🤳🏻"
+  },
+  {
+    "name": "Whatsapp Lite", 
+    "description": "Direct peer-to-peer messaging platform enabling instant, server-free communication between users with enhanced privacy and low latency.",
+    "date": "2025-09-09",
+    "status": "Completed", 
+    "link": "https://messengerofaugust.vercel.app/",
+    "emoji": "💬"
   }
 ]
