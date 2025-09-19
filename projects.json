@@ -38,5 +38,13 @@
     "status": "Completed", 
     "link": "https://messengerofaugust.vercel.app/",
     "emoji": "💬"
+  },
+  {
+    "name": "Note Cloud", 
+    "description": "Cloud-powered personal notebook app with Firebase backend, featuring rich text formatting, smart categorization, real-time sync.",
+    "date": "2025-09-15",
+    "status": "Completed", 
+    "link": "https://notesofaugust.vercel.app/",
+    "emoji": "🗒️"
   }
 ]
