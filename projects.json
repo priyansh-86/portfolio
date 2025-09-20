@@ -46,5 +46,13 @@
     "status": "Completed", 
     "link": "https://notesofaugust.vercel.app/",
     "emoji": "🗒️"
+  },
+  {
+    "name": "Photo Editor", 
+    "description": "Advanced Photo Editor is a powerful, browser-based image editing application built with modern web technologies.",
+    "date": "2025-09-21",
+    "status": "Completed", 
+    "link": "https://editorofaugust.vercel.app/",
+    "emoji": "🖼️"
   }
 ]
