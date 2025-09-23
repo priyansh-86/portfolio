@@ -62,5 +62,13 @@
     "status": "Completed", 
     "link": "https://powerprint.vercel.app/",
     "emoji": "💡"
+  },
+  {
+    "name": "Maintenance Tracker", 
+    "description": "Track and manage all your home maintenance tasks, bills, and repair schedules in one organized digital platform.",
+    "date": "2025-09-28",
+    "status": "Completed", 
+    "link": "https://househarmony.vercel.app/",
+    "emoji": "🗂️"
   }
 ]
