@@ -4,7 +4,7 @@
     "description": "Calculate loan EMI, interest, and payment schedules instantly with this user-friendly web-based calculator tool",
     "date": "2025-08-16",
     "status": "Completed",
-    "link": "https://loanofaugust.vercel.app/",
+    "link": "https://interestink.vercel.app/",
     "emoji": "🛍️"
   },
   {
@@ -12,7 +12,7 @@
     "description": "Dark-themed web application with sleek midnight aesthetics and modern user interface design elements.",
     "date": "2025-08-18",
     "status": "Completed", 
-    "link": "https://midnightofaugust.vercel.app/",
+    "link": "https://nightnexus.vercel.app/",
     "emoji": "🎊"
   },
   {
@@ -20,7 +20,7 @@
     "description": "Personal expense tracker to monitor daily spending, categorize transactions, and manage your budget effectively",
     "date": "2025-08-21",
     "status": "Completed", 
-    "link": "https://expenseofaugust.vercel.app/",
+    "link": "https://cashcurve.vercel.app/",
     "emoji": "🏦"
   },
   {
@@ -28,7 +28,7 @@
     "description": "Capture your smile & gestures with Smart Selfie",
     "date": "2025-09-01",
     "status": "Completed", 
-    "link": "https://selfieofaugust.vercel.app/",
+    "link": "https://frameflash.vercel.app/",
     "emoji": "🤳🏻"
   },
   {
@@ -36,7 +36,7 @@
     "description": "Direct peer-to-peer messaging platform enabling instant, server-free communication between users with enhanced privacy and low latency.",
     "date": "2025-09-09",
     "status": "Completed", 
-    "link": "https://messengerofaugust.vercel.app/",
+    "link": "https://messagemix.vercel.app/",
     "emoji": "💬"
   },
   {
@@ -44,7 +44,7 @@
     "description": "Cloud-powered personal notebook app with Firebase backend, featuring rich text formatting, smart categorization, real-time sync.",
     "date": "2025-09-15",
     "status": "Completed", 
-    "link": "https://notesofaugust.vercel.app/",
+    "link": "https://noteknot.vercel.app/",
     "emoji": "🗒️"
   },
   {
@@ -52,7 +52,15 @@
     "description": "Advanced Photo Editor is a powerful, browser-based image editing application built with modern web technologies.",
     "date": "2025-09-21",
     "status": "Completed", 
-    "link": "https://editorofaugust.vercel.app/",
+    "link": "https://picturepulse.vercel.app/",
     "emoji": "🖼️"
+  },
+  {
+    "name": "Light Bill Manager", 
+    "description": "Track Your Electricity Bills with node Web Power App. Summarize analyze.",
+    "date": "2025-09-23",
+    "status": "Completed", 
+    "link": "https://powerprint.vercel.app/",
+    "emoji": "💡"
   }
 ]
