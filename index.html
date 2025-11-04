@@ -827,21 +827,31 @@
             scene.add(moon);
 
             // Create Stars
+            const textureLoader = new THREE.TextureLoader();
+            // Yeh ek gol dot ki image load karega
+            const starTexture = textureLoader.load('https://threejs.org/examples/textures/sprites/disc.png'); 
+
             const starsGeometry = new THREE.BufferGeometry();
-            const starsCount = 1000;
+            const starsCount = 5000; // Humne stars ka count badha diya hai
             const positions = new Float32Array(starsCount * 3);
 
             for (let i = 0; i < starsCount * 3; i++) {
-                positions[i] = (Math.random() - 0.5) * 200;
+                // Stars ko aur dur tak phaila diya (200 se 600)
+                positions[i] = (Math.random() - 0.5) * 600; 
             }
 
             starsGeometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+            
+            // Naya material jo texture use karega
             const starsMaterial = new THREE.PointsMaterial({
                 color: 0xffffff,
-                size: 2,
+                size: 1.5, // Size aap yahan se chota/bada kar sakte hain
+                map: starTexture, // Gol texture yahan set kiya
                 transparent: true,
-                opacity: 0.8
+                blending: THREE.AdditiveBlending, // Isse glow effect aayega
+                depthWrite: false
             });
+            
             stars = new THREE.Points(starsGeometry, starsMaterial);
             scene.add(stars);
 
