@@ -16,6 +16,10 @@
             background: #000010;
             overflow-x: hidden;
             color: white;
+            user-select: none;
+            -webkit-user-select: none; /* Safari*/
+            -moz-user-select: none;    /* Firefox*/
+            -ms-user-select: none;     /* IE/Edge*/
         }
 
         @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap');
@@ -1076,6 +1080,9 @@
         console.log('🚀 Advanced 3D Portfolio Loaded!');
         console.log('Features: Rotating Planet, Interactive Stars, Hologram Effects');
         console.log('Controls: Mouse movement, Navigation dots, Spacebar for color change');
+        document.addEventListener('contextmenu', (event) => {
+            event.preventDefault();
+        });
     </script>
 </body>
 </html>
