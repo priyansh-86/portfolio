@@ -70,5 +70,21 @@
     "status": "Completed", 
     "link": "https://househarmony.vercel.app/",
     "emoji": "🗂️"
+  },
+  {
+    "name": "ChitChat P2P Call", 
+    "description": "A peer-to-peer video calling application built with WebRTC and Firebase. The app enables direct video communication between users with real-time signaling through Firebase Realtime Database.",
+    "date": "2025-10-27",
+    "status": "Completed", 
+    "link": "https://videotalk.vercel.app/",
+    "emoji": "📹"
+  },
+  {
+    "name": "Quick File Sharing", 
+    "description": "A modern web-based file sharing platform built with React and styled with Tailwind CSS. The application enables users to upload multiple files simultaneously, which are automatically packaged into a single ZIP archive and stored on Vercel Blob Storage.",
+    "date": "2025-11-02",
+    "status": "Ongoing", 
+    "link": "https://nosharefile.vercel.app/",
+    "emoji": "📤"
   }
 ]
