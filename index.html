@@ -6,12 +6,16 @@
     <title>PRIYANSH | Future Tech Portfolio</title>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+
     <style>
         /* --- RESET & FONTS --- */
         * { margin: 0; padding: 0; box-sizing: border-box; cursor: none; }
-        body { font-family: 'Orbitron', sans-serif; background: #000010; overflow-x: hidden; color: white; user-select: none; }
-        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;500;700&display=swap');
-
+        /* Updated Body Font to Outfit */
+        body { font-family: 'Outfit', sans-serif; background: #000010; overflow-x: hidden; color: white; user-select: none; }
+        
         /* --- CUSTOM CURSOR --- */
         .cursor-dot, .cursor-outline { position: fixed; top: 0; left: 0; transform: translate(-50%, -50%); border-radius: 50%; z-index: 9999; pointer-events: none; }
         .cursor-dot { width: 8px; height: 8px; background-color: #00f5ff; box-shadow: 0 0 10px #00f5ff; }
@@ -21,7 +25,7 @@
         /* --- PRELOADER --- */
         #preloader { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #000010; z-index: 10000; display: flex; justify-content: center; align-items: center; flex-direction: column; transition: opacity 0.8s ease-out, visibility 0.8s; }
         .loader-ring { width: 80px; height: 80px; border: 4px solid transparent; border-top: 4px solid #00f5ff; border-right: 4px solid #ff00f5; border-radius: 50%; animation: spin 1s linear infinite; margin-bottom: 20px; box-shadow: 0 0 20px rgba(0, 245, 255, 0.2); }
-        .loader-text { color: #00f5ff; font-size: 1.2rem; letter-spacing: 5px; animation: pulse 1.5s ease-in-out infinite; }
+        .loader-text { color: #00f5ff; font-size: 1.2rem; letter-spacing: 5px; animation: pulse 1.5s ease-in-out infinite; font-family: 'Space Grotesk', sans-serif; }
         @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
         @keyframes pulse { 0%, 100% { opacity: 0.5; } 50% { opacity: 1; } }
 
@@ -32,11 +36,15 @@
         .section { min-height: 100vh; display: flex; align-items: center; justify-content: center; position: relative; padding: 80px 20px; }
         .reveal { opacity: 0; transform: translateY(50px); transition: all 1s ease; }
         .reveal.active { opacity: 1; transform: translateY(0); }
+        
+        /* Major Titles Font updated to Space Grotesk */
+        h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; }
 
         /* --- HERO SECTION --- */
-        .hero-title { font-size: clamp(3rem, 8vw, 6rem); font-weight: 900; background: linear-gradient(45deg, #00f5ff, #ff00f5, #00ff00); background-size: 200% 200%; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; animation: gradientShift 3s ease-in-out infinite; margin-bottom: 15px; filter: drop-shadow(0 0 10px rgba(0, 245, 255, 0.3)); }
+        .hero-title { font-size: clamp(3rem, 8vw, 6rem); font-weight: 700; background: linear-gradient(45deg, #00f5ff, #ff00f5, #00ff00); background-size: 200% 200%; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; animation: gradientShift 3s ease-in-out infinite; margin-bottom: 15px; filter: drop-shadow(0 0 10px rgba(0, 245, 255, 0.3)); }
         @keyframes gradientShift { 0%, 100% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } }
-        .hero-subtitle { font-family: 'Rajdhani', sans-serif; font-size: clamp(1.5rem, 3vw, 2.5rem); color: #ccc; margin-bottom: 30px; letter-spacing: 2px; }
+        /* Subtitle Font updated to Outfit */
+        .hero-subtitle { font-family: 'Outfit', sans-serif; font-size: clamp(1.5rem, 3vw, 2.5rem); color: #ccc; margin-bottom: 30px; letter-spacing: 2px; font-weight: 300; }
         
         .profile-section { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 60px; max-width: 1200px; margin: 0 auto; }
         .profile-image-container { position: relative; width: 300px; height: 300px; }
@@ -52,10 +60,11 @@
         /* --- PROJECTS SECTION --- */
         .projects-wrapper { max-width: 1300px; width: 100%; margin: 0 auto; }
         .section-header { text-align: center; margin-bottom: 50px; }
-        .section-title { font-size: 3rem; color: #00f5ff; text-shadow: 0 0 20px rgba(0, 245, 255, 0.5); margin-bottom: 10px; }
+        .section-title { font-size: 3rem; color: #00f5ff; text-shadow: 0 0 20px rgba(0, 245, 255, 0.5); margin-bottom: 10px; font-weight: 700; }
         
         .filter-container { display: flex; justify-content: center; gap: 15px; margin-bottom: 40px; flex-wrap: wrap; }
-        .filter-btn { padding: 10px 25px; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); color: #aaa; border-radius: 20px; font-family: 'Orbitron', sans-serif; transition: all 0.3s; }
+        /* Filter button font updated to Space Grotesk */
+        .filter-btn { padding: 10px 25px; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); color: #aaa; border-radius: 20px; font-family: 'Space Grotesk', sans-serif; transition: all 0.3s; font-weight: 500; }
         .filter-btn:hover, .filter-btn.active { color: #000; background: #00f5ff; border-color: #00f5ff; box-shadow: 0 0 15px #00f5ff; }
 
         .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; padding: 0 20px; }
@@ -67,11 +76,12 @@
         .project-card:hover .project-emoji-header::after { transform: translateX(100%); }
 
         .project-content { padding: 25px; }
-        .project-title { color: #fff; margin-bottom: 10px; font-size: 1.4rem; }
-        .project-desc { color: #ccc; font-size: 0.95rem; line-height: 1.6; margin-bottom: 20px; font-family: 'Rajdhani', sans-serif; min-height: 60px; }
+        .project-title { color: #fff; margin-bottom: 10px; font-size: 1.4rem; font-weight: 700; }
+        /* Project Desc font updated to Outfit */
+        .project-desc { color: #ccc; font-size: 0.95rem; line-height: 1.6; margin-bottom: 20px; font-family: 'Outfit', sans-serif; min-height: 60px; font-weight: 300; }
         .project-meta { display: flex; justify-content: space-between; align-items: center; padding-top: 15px; border-top: 1px solid rgba(255,255,255,0.1); }
-        .status-badge { font-size: 0.75rem; padding: 4px 8px; border-radius: 4px; background: rgba(0, 255, 0, 0.1); color: #00ff00; border: 1px solid rgba(0, 255, 0, 0.3); }
-        .visit-btn { padding: 8px 18px; background: linear-gradient(90deg, #00f5ff, #0099ff); color: black; font-weight: bold; text-decoration: none; border-radius: 20px; font-size: 0.9rem; transition: 0.3s; }
+        .status-badge { font-size: 0.75rem; padding: 4px 8px; border-radius: 4px; background: rgba(0, 255, 0, 0.1); color: #00ff00; border: 1px solid rgba(0, 255, 0, 0.3); font-family: 'Space Grotesk', sans-serif; }
+        .visit-btn { padding: 8px 18px; background: linear-gradient(90deg, #00f5ff, #0099ff); color: black; font-weight: bold; text-decoration: none; border-radius: 20px; font-size: 0.9rem; transition: 0.3s; font-family: 'Space Grotesk', sans-serif; }
         .visit-btn:hover { box-shadow: 0 0 15px #00f5ff; }
 
         /* --- SKILLS & CONTACT --- */
@@ -82,9 +92,11 @@
 
         .contact-box { background: rgba(10, 10, 20, 0.8); border: 1px solid rgba(0, 245, 255, 0.3); padding: 50px; border-radius: 20px; width: 100%; max-width: 600px; position: relative; backdrop-filter: blur(10px); }
         .contact-box::before { content: ''; position: absolute; inset: -2px; border-radius: 22px; background: linear-gradient(45deg, #00f5ff, #ff00f5); z-index: -1; opacity: 0.5; filter: blur(10px); }
-        .form-input { width: 100%; padding: 15px; background: rgba(0,0,0,0.5); border: 1px solid rgba(255,255,255,0.2); color: white; border-radius: 8px; font-family: 'Rajdhani', sans-serif; font-size: 1.1rem; transition: 0.3s; margin-bottom: 20px; }
+        /* Input fonts updated to Outfit */
+        .form-input { width: 100%; padding: 15px; background: rgba(0,0,0,0.5); border: 1px solid rgba(255,255,255,0.2); color: white; border-radius: 8px; font-family: 'Outfit', sans-serif; font-size: 1.1rem; transition: 0.3s; margin-bottom: 20px; }
         .form-input:focus { outline: none; border-color: #00f5ff; box-shadow: 0 0 15px rgba(0, 245, 255, 0.3); }
-        .submit-btn { width: 100%; padding: 15px; background: linear-gradient(45deg, #00f5ff, #ff00f5); border: none; color: white; font-weight: bold; font-size: 1.2rem; border-radius: 8px; transition: 0.3s; text-transform: uppercase; letter-spacing: 2px; }
+        /* Button font updated to Space Grotesk */
+        .submit-btn { width: 100%; padding: 15px; background: linear-gradient(45deg, #00f5ff, #ff00f5); border: none; color: white; font-weight: bold; font-size: 1.2rem; border-radius: 8px; transition: 0.3s; text-transform: uppercase; letter-spacing: 2px; font-family: 'Space Grotesk', sans-serif; }
         .submit-btn:hover { transform: translateY(-2px); box-shadow: 0 0 30px rgba(0, 245, 255, 0.5); }
         .submit-btn:disabled { opacity: 0.7; cursor: not-allowed; }
 
@@ -126,7 +138,7 @@
             <div class="hero-content">
                 <h1 class="hero-title">PRIYANSH RAJBHAR</h1>
                 <h2 class="hero-subtitle">FULL STACK DEVELOPER</h2>
-                <p style="color: #aaa; line-height: 1.6; max-width: 600px; margin: 0 auto 30px auto; font-family: 'Rajdhani', sans-serif; font-size: 1.2rem;">
+                <p style="color: #aaa; line-height: 1.6; max-width: 600px; margin: 0 auto 30px auto; font-family: 'Outfit', sans-serif; font-size: 1.2rem; font-weight: 300;">
                     Architecting immersive digital experiences with Next.js, React, and 3D technologies. 
                     Merging creativity with code to build the future of the web.
                 </p>
@@ -195,29 +207,23 @@
 
         // --- 1. INITIALIZATION ---
         window.addEventListener('load', async () => {
-            // Preloader fade out
             const preloader = document.getElementById('preloader');
             preloader.style.opacity = '0';
             setTimeout(() => preloader.style.visibility = 'hidden', 800);
-
-            // Fetch Data
             await fetchEmailConfig();
             await fetchProjects();
         });
 
-        // --- 2. FETCH PROJECTS (FROM projects.json) ---
+        // --- 2. FETCH PROJECTS ---
         async function fetchProjects() {
             try {
                 const res = await fetch('projects.json');
                 if (!res.ok) throw new Error("Could not load projects");
                 const data = await res.json();
-                
-                // Add type if missing (fallback logic)
                 allProjects = data.map(p => ({
                     ...p,
                     type: p.type || ((p.description.toLowerCase().includes('tool') || p.description.toLowerCase().includes('calculator')) ? 'tools' : 'web')
                 }));
-                
                 renderProjects(allProjects);
             } catch (err) {
                 console.error("Project Load Error:", err);
@@ -236,7 +242,7 @@
                     <div class="project-emoji-header">${proj.emoji || "📦"}</div>
                     <div class="project-content">
                         <h3 class="project-title">${proj.name}</h3>
-                        <p class="project-desc">${proj.description.substring(0, 80)}...</p>
+                        <p class="project-desc" style="font-family: 'Outfit', sans-serif;">${proj.description.substring(0, 80)}...</p>
                         <div class="project-meta">
                             <span class="status-badge">${proj.status || "Completed"}</span>
                             ${proj.link ? `<a href="${proj.link}" target="_blank" class="visit-btn" data-hover>VISIT ↗</a>` : ""}
@@ -254,13 +260,11 @@
             else renderProjects(allProjects.filter(p => p.type === category));
         }
 
-        // --- 3. SECURE EMAIL HANDLING ---
+        // --- 3. SECURE EMAIL HANDLING (Robust Version) ---
         async function fetchEmailConfig() {
             try {
-                // Call our Vercel Serverless Function
                 const res = await fetch('/api/config');
                 emailConfig = await res.json();
-                
                 if(emailConfig.publicKey) {
                     emailjs.init(emailConfig.publicKey);
                     console.log("Comms System Online");
@@ -273,23 +277,31 @@
         function handleSubmit(event) {
             event.preventDefault();
             const btn = event.target.querySelector('.submit-btn');
-            const originalText = btn.innerText;
-
-            if (!emailConfig.serviceId || !emailConfig.templateId) {
-                alert("Error: Email configuration not loaded.");
+            
+            // Security Check before sending
+            if (!emailConfig.serviceId || !emailConfig.publicKey || !emailConfig.templateId) {
+                alert("System Error: Security Keys not loaded. Please refresh the page.");
+                console.error("Missing Config:", emailConfig);
                 return;
             }
-            
+
+            const originalText = btn.innerText;
             btn.innerText = 'TRANSMITTING...';
             btn.disabled = true;
             
-            emailjs.sendForm(emailConfig.serviceId, emailConfig.templateId, event.target)
+            // Explicitly passing keys for reliability
+            emailjs.sendForm(
+                emailConfig.serviceId, 
+                emailConfig.templateId, 
+                event.target,
+                emailConfig.publicKey
+            )
                 .then(() => {
                     btn.innerText = 'TRANSMISSION SUCCESS ✅';
                     btn.style.background = 'green';
                     setTimeout(() => {
                         btn.innerText = originalText;
-                        btn.style.background = ''; // reset
+                        btn.style.background = '';
                         btn.disabled = false;
                         event.target.reset();
                     }, 3000);
@@ -303,8 +315,6 @@
         }
 
         // --- 4. VISUALS & ANIMATIONS ---
-        
-        // Custom Cursor
         const cursorDot = document.querySelector('.cursor-dot');
         const cursorOutline = document.querySelector('.cursor-outline');
         window.addEventListener('mousemove', (e) => {
@@ -313,17 +323,14 @@
             cursorOutline.animate({ left: `${e.clientX}px`, top: `${e.clientY}px` }, { duration: 500, fill: "forwards" });
         });
 
-        // Scroll Animations
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => entry.isIntersecting && entry.target.classList.add('active'));
         }, { threshold: 0.1 });
         document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
-        // Smooth Nav
         const sections = document.querySelectorAll('.section');
         const dots = document.querySelectorAll('.dot');
         function scrollToSection(index) { sections[index].scrollIntoView({ behavior: 'smooth' }); }
-        
         window.addEventListener('scroll', () => {
             sections.forEach((section, index) => {
                 if (scrollY >= (section.offsetTop - section.clientHeight / 3)) {
@@ -333,7 +340,7 @@
             });
         });
 
-        // Three.js (Safe Mode)
+        // --- 5. THREE.JS BACKGROUND (WITH ROUND STARS FIX) ---
         try {
             if (!window.WebGLRenderingContext) throw new Error("WebGL Not Supported");
             
@@ -345,6 +352,10 @@
             renderer.setSize(window.innerWidth, window.innerHeight);
             container.appendChild(renderer.domElement);
 
+            // ** FIX FOR ROUND STARS: Texture Loader **
+            const textureLoader = new THREE.TextureLoader();
+            const starTexture = textureLoader.load('https://threejs.org/examples/textures/sprites/disc.png');
+
             // Planet
             const planet = new THREE.Mesh(
                 new THREE.SphereGeometry(2, 32, 32),
@@ -353,12 +364,22 @@
             planet.position.set(-4, 0, -8);
             scene.add(planet);
 
-            // Stars
+            // Stars (Updated with Texture)
             const starsGeo = new THREE.BufferGeometry();
-            const starsPos = new Float32Array(2000 * 3);
-            for(let i=0; i<6000; i++) starsPos[i] = (Math.random() - 0.5) * 50;
+            const starsPos = new Float32Array(3000 * 3); // Reduced count slightly for performance with texture
+            for(let i=0; i<3000; i++) starsPos[i] = (Math.random() - 0.5) * 100; // Increased spread
             starsGeo.setAttribute('position', new THREE.BufferAttribute(starsPos, 3));
-            const stars = new THREE.Points(starsGeo, new THREE.PointsMaterial({ size: 0.03, color: 0xffffff, transparent: true, opacity: 0.8 }));
+            
+            const starsMaterial = new THREE.PointsMaterial({ 
+                size: 0.4, // Adjusted size
+                color: 0xffffff, 
+                transparent: true, 
+                opacity: 0.8,
+                map: starTexture, // Apply the round texture
+                alphaTest: 0.5 // Helps with rendering transparent textures
+            });
+            
+            const stars = new THREE.Points(starsGeo, starsMaterial);
             scene.add(stars);
 
             // Lights
