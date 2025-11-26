@@ -1,0 +1,101 @@
+[
+  {
+    "name": "Loan Calculator",
+    "description": "Calculate loan EMI, interest, and payment schedules instantly with this user-friendly web-based calculator tool",
+    "date": "2025-08-16",
+    "status": "Completed",
+    "link": "https://interestink.vercel.app/",
+    "emoji": "🛍️",
+    "type": "tools"
+  },
+  {
+    "name": "Midnight Events", 
+    "description": "Dark-themed web application with sleek midnight aesthetics and modern user interface design elements.",
+    "date": "2025-08-18",
+    "status": "Completed", 
+    "link": "https://nightnexus.vercel.app/",
+    "emoji": "🎊",
+    "type": "web"
+  },
+  {
+    "name": "Expense Tracker", 
+    "description": "Personal expense tracker to monitor daily spending, categorize transactions, and manage your budget effectively",
+    "date": "2025-08-21",
+    "status": "Completed", 
+    "link": "https://cashcurve.vercel.app/",
+    "emoji": "🏦",
+    "type": "tools"
+  },
+  {
+    "name": "Smile Selfie", 
+    "description": "Capture your smile & gestures with Smart Selfie",
+    "date": "2025-09-01",
+    "status": "Completed", 
+    "link": "https://frameflash.vercel.app/",
+    "emoji": "🤳🏻",
+    "type": "web"
+  },
+  {
+    "name": "Whatsapp Lite", 
+    "description": "Direct peer-to-peer messaging platform enabling instant, server-free communication between users.",
+    "date": "2025-09-09",
+    "status": "Completed", 
+    "link": "https://messagemix.vercel.app/",
+    "emoji": "💬",
+    "type": "web"
+  },
+  {
+    "name": "Note Cloud", 
+    "description": "Cloud-powered personal notebook app with Firebase backend, featuring rich text formatting.",
+    "date": "2025-09-15",
+    "status": "Completed", 
+    "link": "https://noteknot.vercel.app/",
+    "emoji": "🗒️",
+    "type": "web"
+  },
+  {
+    "name": "Photo Editor", 
+    "description": "Advanced Photo Editor is a powerful, browser-based image editing application built with modern web technologies.",
+    "date": "2025-09-21",
+    "status": "Completed", 
+    "link": "https://picturepulse.vercel.app/",
+    "emoji": "🖼️",
+    "type": "tools"
+  },
+  {
+    "name": "Light Bill Manager", 
+    "description": "Track Your Electricity Bills with node Web Power App. Summarize analyze.",
+    "date": "2025-09-23",
+    "status": "Completed", 
+    "link": "https://powerprint.vercel.app/",
+    "emoji": "💡",
+    "type": "tools"
+  },
+  {
+    "name": "Maintenance Tracker", 
+    "description": "Track and manage all your home maintenance tasks, bills, and repair schedules in one organized digital platform.",
+    "date": "2025-09-28",
+    "status": "Completed", 
+    "link": "https://househarmony.vercel.app/",
+    "emoji": "🗂️",
+    "type": "tools"
+  },
+  {
+    "name": "ChitChat P2P Call", 
+    "description": "A peer-to-peer video calling application built with WebRTC and Firebase.",
+    "date": "2025-10-27",
+    "status": "Completed", 
+    "link": "https://videotalk.vercel.app/",
+    "emoji": "📹",
+    "type": "web"
+  },
+  {
+    "name": "Quick File Sharing", 
+    "description": "A modern web-based file sharing platform built with React and styled with Tailwind CSS.",
+    "date": "2025-11-02",
+    "status": "Ongoing", 
+    "link": "https://nosharefile.vercel.app/",
+    "emoji": "📤",
+    "type": "tools"
+  }
+]
