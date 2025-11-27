@@ -9,93 +9,120 @@
     "type": "tools"
   },
   {
-    "name": "Midnight Events", 
+    "name": "Midnight Events",
     "description": "Dark-themed web application with sleek midnight aesthetics and modern user interface design elements.",
     "date": "2025-08-18",
-    "status": "Completed", 
+    "status": "Completed",
     "link": "https://nightnexus.vercel.app/",
     "emoji": "🎊",
     "type": "web"
   },
   {
-    "name": "Expense Tracker", 
+    "name": "Expense Tracker",
     "description": "Personal expense tracker to monitor daily spending, categorize transactions, and manage your budget effectively",
     "date": "2025-08-21",
-    "status": "Completed", 
+    "status": "Completed",
     "link": "https://cashcurve.vercel.app/",
     "emoji": "🏦",
     "type": "tools"
   },
   {
-    "name": "Smile Selfie", 
+    "name": "Smile Selfie",
     "description": "Capture your smile & gestures with Smart Selfie",
     "date": "2025-09-01",
-    "status": "Completed", 
+    "status": "Completed",
     "link": "https://frameflash.vercel.app/",
     "emoji": "🤳🏻",
     "type": "web"
   },
   {
-    "name": "Whatsapp Lite", 
+    "name": "Whatsapp Lite",
     "description": "Direct peer-to-peer messaging platform enabling instant, server-free communication between users.",
     "date": "2025-09-09",
-    "status": "Completed", 
+    "status": "Completed",
     "link": "https://messagemix.vercel.app/",
     "emoji": "💬",
     "type": "web"
   },
   {
-    "name": "Note Cloud", 
+    "name": "Note Cloud",
     "description": "Cloud-powered personal notebook app with Firebase backend, featuring rich text formatting.",
     "date": "2025-09-15",
-    "status": "Completed", 
+    "status": "Completed",
     "link": "https://noteknot.vercel.app/",
     "emoji": "🗒️",
     "type": "web"
   },
   {
-    "name": "Photo Editor", 
+    "name": "Photo Editor",
     "description": "Advanced Photo Editor is a powerful, browser-based image editing application built with modern web technologies.",
     "date": "2025-09-21",
-    "status": "Completed", 
+    "status": "Completed",
     "link": "https://picturepulse.vercel.app/",
     "emoji": "🖼️",
     "type": "tools"
   },
   {
-    "name": "Light Bill Manager", 
+    "name": "Light Bill Manager",
     "description": "Track Your Electricity Bills with node Web Power App. Summarize analyze.",
     "date": "2025-09-23",
-    "status": "Completed", 
+    "status": "Completed",
     "link": "https://powerprint.vercel.app/",
     "emoji": "💡",
     "type": "tools"
   },
   {
-    "name": "Maintenance Tracker", 
+    "name": "Maintenance Tracker",
     "description": "Track and manage all your home maintenance tasks, bills, and repair schedules in one organized digital platform.",
     "date": "2025-09-28",
-    "status": "Completed", 
+    "status": "Completed",
     "link": "https://househarmony.vercel.app/",
     "emoji": "🗂️",
     "type": "tools"
   },
   {
-    "name": "ChitChat P2P Call", 
+    "name": "ChitChat P2P Call",
     "description": "A peer-to-peer video calling application built with WebRTC and Firebase.",
     "date": "2025-10-27",
-    "status": "Completed", 
+    "status": "Completed",
     "link": "https://videotalk.vercel.app/",
     "emoji": "📹",
     "type": "web"
   },
   {
-    "name": "Quick File Sharing", 
+    "name": "Quick File Sharing",
     "description": "A modern web-based file sharing platform built with React and styled with Tailwind CSS.",
     "date": "2025-11-02",
-    "status": "Ongoing", 
+    "status": "Ongoing",
     "link": "https://nosharefile.vercel.app/",
     "emoji": "📤",
     "type": "tools"
+  },
+  {
+    "name": "Image Viewer",
+    "description": "Minimalist online photo viewer with drag-and-drop functionality, supporting JPG, PNG, WEBP, and SVG formats.",
+    "date": "2025-11-10",
+    "status": "Completed",
+    "link": "https://imageviewerproject.vercel.app/",
+    "emoji": "👁️",
+    "type": "tools"
+  },
+  {
+    "name": "Data Converter",
+    "description": "Dual-utility tool for converting data storage units (Binary/Decimal) and calculating file download times.",
+    "date": "2025-11-18",
+    "status": "Completed",
+    "link": "https://datacal.vercel.app/",
+    "emoji": "💾",
+    "type": "tools"
+  },
+  {
+    "name": "Movie Explorer",
+    "description": "Cinematic discovery platform to search movies, view details, and track recent search history.",
+    "date": "2025-11-25",
+    "status": "Completed",
+    "link": "https://moviedude.vercel.app/",
+    "emoji": "🎬",
+    "type": "web"
   }
 ]
