@@ -124,5 +124,14 @@
     "link": "https://moviedude.vercel.app/",
     "emoji": "🎬",
     "type": "web"
+  },
+  {
+    "name": "Rajbhar Store",
+    "description": "Modern e-commerce platform for organic vegetables and spices. Features cart management, category filtering, and a fresh UI.",
+    "date": "2025-11-27",
+    "status": "Completed",
+    "link": "https://rajbharstore.vercel.app/",
+    "emoji": "🥦",
+    "type": "web"
   }
 ]
