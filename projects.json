@@ -133,5 +133,14 @@
     "link": "https://rajbharstore.vercel.app/",
     "emoji": "🥦",
     "type": "web"
+  },
+  {
+    "name": "Dear Weather",
+    "description": "Sleek weather dashboard built with React & Vite. Features real-time data, hourly forecasts, and a stunning dark UI.",
+    "date": "2025-11-27",
+    "status": "Completed",
+    "link": "https://dearweather.vercel.app/",
+    "emoji": "🌥️",
+    "type": "web"
   }
 ]
