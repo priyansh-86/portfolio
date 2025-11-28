@@ -151,5 +151,14 @@
     "link": "https://drivemedia.vercel.app/",
     "emoji": "🍿",
     "type": "web"
+  },
+  {
+    "name": "Scanner Vision",
+    "description": "Universal barcode scanner & generator tool. Supports QR codes, EAN, UPC, and standard barcodes with instant detection.",
+    "date": "2025-11-30",
+    "status": "Completed",
+    "link": "https://scannervision.vercel.app/",
+    "emoji": "📷",
+    "type": "tools"
   }
 ]
