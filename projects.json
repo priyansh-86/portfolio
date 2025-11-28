@@ -142,5 +142,14 @@
     "link": "https://dearweather.vercel.app/",
     "emoji": "🌥️",
     "type": "web"
+  },
+  {
+    "name": "Drive Cinema",
+    "description": "Personal streaming service using Google Drive API. Built with Next.js 15, custom stream proxy (Range API), NextAuth, and Glassmorphism UI.",
+    "date": "2025-11-28",
+    "status": "Completed",
+    "link": "https://drivemedia.vercel.app/",
+    "emoji": "🍿",
+    "type": "web"
   }
 ]
