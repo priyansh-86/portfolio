@@ -93,7 +93,7 @@
     "name": "Quick File Sharing",
     "description": "A modern web-based file sharing platform built with React and styled with Tailwind CSS.",
     "date": "2025-11-02",
-    "status": "Ongoing",
+    "status": "Completed",
     "link": "https://nosharefile.vercel.app/",
     "emoji": "📤",
     "type": "tools"
