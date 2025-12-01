@@ -93,7 +93,7 @@
     "name": "Quick File Sharing",
     "description": "A modern web-based file sharing platform built with React and styled with Tailwind CSS.",
     "date": "2025-11-02",
-    "status": "Completed",
+    "status": "Ongoing",
     "link": "https://nosharefile.vercel.app/",
     "emoji": "📤",
     "type": "tools"
@@ -159,6 +159,15 @@
     "status": "Completed",
     "link": "https://scannervision.vercel.app/",
     "emoji": "📷",
+    "type": "tools"
+  },
+  {
+    "name": "Glass PDF Editor",
+    "description": "Secure, serverless PDF manipulation tool built with Next.js 16. Merge, split, sign, and edit PDFs entirely in-browser with a premium Glassmorphism UI.",
+    "date": "2025-12-01",
+    "status": "Completed",
+    "link": "https://glasspdfeditor.vercel.app/",
+    "emoji": "📑",
     "type": "tools"
   }
 ]
