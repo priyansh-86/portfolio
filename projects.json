@@ -169,5 +169,14 @@
     "link": "https://glasspdfeditor.vercel.app/",
     "emoji": "📑",
     "type": "tools"
+  },
+  {
+    "name": "Glass Chat",
+    "description": "Real-time chat platform with secure PIN-based room creation and live presence features. Powered by Firebase Realtime Database and React.",
+    "date": "2025-12-05",
+    "status": "Completed",
+    "link": "https://priyanshreactmsg.vercel.app/",
+    "emoji": "💬",
+    "type": "web"
   }
 ]
